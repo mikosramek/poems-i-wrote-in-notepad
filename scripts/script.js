@@ -24,7 +24,6 @@ app.getNextPoem = () => {
 }
 
 app.getNextLine = () => {
-  console.log("tick");
   if(app.lineIndex < poems[app.poemIndex].poem.length){
     $( "<p>Test</p>" ).appendTo( ".inner" );
     const a = $(`<li class="poemLine">${poems[app.poemIndex].poem[app.lineIndex]}</li>`).appendTo('#poemBody');
