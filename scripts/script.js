@@ -48,7 +48,7 @@ app.getNextLine = () => {
     const lengthOfLine = poems[app.poemIndex].poem[app.lineIndex].length;
     a.hide().fadeIn(750);
     app.lineIndex++;
-    const timeoutTime = Math.clip(700 + lengthOfLine*15, 0, 2500);
+    const timeoutTime = Math.clip(700 + lengthOfLine*30, 0, 2500);
 
     setTimeout(app.getNextLine, timeoutTime);
   } else {
