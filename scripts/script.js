@@ -24,7 +24,7 @@ app.getNextPoem = () => {
     body.html(
       `<li><p>this experience was created by miko sramek with a selection of poems taken from <a href="http://bit.ly/2PmYB6j" target="_blank">this google doc</a></p></li>
       <li><p>
-        mark baldyga is a liberal arts major who is totally not homeless yet but probably will be soon and would really appreciate it if you could spare like a dollar or twenty, man
+        these poems were written by mark baldyga, a liberal arts major who is totally not homeless yet but probably will be soon and would really appreciate it if you could spare like a dollar or twenty, man
       </p></li>
       <li><p>
         his fiction is forthcoming in the Journal of Microliterature 
